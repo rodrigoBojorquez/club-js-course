@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clase 1 - Fundamentos JS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./01-variables.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 p-6 font-sans">
+
+  <div class="max-w-3xl mx-auto bg-white p-6 rounded-xl shadow-md space-y-6">
+    <h1 class="text-2xl font-bold text-blue-700">Clase 1: Fundamentos de JavaScript</h1>
+
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Variables y tipos de datos</h2>
+      <p>Haz clic para declarar variables y mostrar su tipo:</p>
+      <button onclick="mostrarVariables()" class="mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+        Mostrar variables
+      </button>
+      <pre id="resultado1" class="bg-gray-200 p-3 mt-3 rounded text-sm overflow-auto"></pre>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Operadores</h2>
+      <p>Haz clic para ver operaciones básicas:</p>
+      <button onclick="mostrarOperaciones()" class="mt-2 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700">
+        Mostrar operaciones
+      </button>
+      <pre id="resultado2" class="bg-gray-200 p-3 mt-3 rounded text-sm overflow-auto"></pre>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Ejercicio final</h2>
+      <p>Mensaje con tu nombre, edad y si te gusta programar:</p>
+      <button onclick="ejercicioFinal()" class="mt-2 px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700">
+        Ejecutar ejercicio
+      </button>
+      <pre id="resultado3" class="bg-gray-200 p-3 mt-3 rounded text-sm overflow-auto"></pre>
+    </section>
+  </div>
+
+</body>
+</html>
